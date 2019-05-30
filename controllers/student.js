@@ -77,7 +77,7 @@ module.exports = {
               message: 'Course Not Found',
             });
           }
-          student.addCourse(course);
+          student.addCourse(course);//something wrong this line
           return res.status(200).send(student);
         })
       })
